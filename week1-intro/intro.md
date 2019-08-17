@@ -1,7 +1,18 @@
 # Introduction to Data Mining / データマイニング入門
 
 - ＜目次＞
-
+  - <a href="#abst">概要</a>
+  - <a href="#background">背景</a>
+  - <a href="#target">授業で触れる範囲、触れない範囲</a>
+  - <a href="#examples">ケーススタディ外観</a>
+    - <a href="#process">0. 大まかな流れ</a>
+    - <a href="#ex1">1. 各種データの取り扱い：特徴量工学、データのサンプリング</a>
+      - <a href="#ex1-a">1-a. データを構成する特徴量の話</a>
+      - <a href="#ex1-b">1-b. データセットを構成するデータの話</a>
+    - <a href="#ex2">2. 自然言語処理（半構造データの一例）</a>
+    - <a href="#ex3">3. グラフ/ネットワーク</a>
+    - <a href="#ex4">4. 時系列データ</a>
+  - <a href="#preparation">予習</a>
 
 <hr>
 
@@ -79,8 +90,8 @@
 
 <hr>
 
-### 1. 各種データの取り扱い：特徴量工学、データのサンプリング
-#### 1-a. データを構成する特徴量の話
+### <a name="ex1">1. 各種データの取り扱い：特徴量工学、データのサンプリング</a>
+#### <a name="ex1-a">1-a. データを構成する特徴量の話</a>
 - タスク例: Shapes problem by p.76, [Data Mining: Practical Machine Learning Tools and Techniques, 3rd Edition](http://www.cs.waikato.ac.nz/ml/weka/book.html)
   - FIGURE 3.9 The shapes problem: shaded = standing; unshaded = lying.
     - ![FIGURE 3.9 The shapes problem: shaded = standing; unshaded = lying.](./figs/book-practical-machine-learning-figure3.9.png)
@@ -111,7 +122,7 @@
 
 <hr>
 
-#### 1-b. データセットを構成するデータの話
+#### <a name="ex1-b">1-b. データセットを構成するデータの話</a>
 - 不均衡データ
   - 「欲しい事例は、そうでない事例と比べると集めるコストが高くなりがち」のため、結果的にデータセットにおけるデータ数は偏りが大きくなるであることが多い。
     - 「画像に写っているのは動物である」 vs 「動物ではない」
@@ -131,7 +142,7 @@
 
 <hr>
 
-### 2. 自然言語処理（半構造データの一例）
+### <a name="ex2">2. 自然言語処理（半構造データの一例）</a>
 - タスク例
   - 記事分類: [自動記事分類技術を用いた「日経テレコンナビ型記事検索」　情報収集に気づきを提供する新スタイル](https://www.jstage.jst.go.jp/article/johokanri/57/12/57_900/_article/-char/ja/)
     - 「利用者が思いついたキーワードを起点として、検索された結果を複数の観点で自動的に分類し、利用者が求めている情報（検索結果）にたどり着くことができるようになっている。」
@@ -190,7 +201,7 @@
 
 <hr>
 
-### 3. グラフ/ネットワーク
+### <a name="ex3">3. グラフ/ネットワーク</a>
 - グラフとは
   - ノード集合、辺集合があり、辺がノードの対で表現された構造をグラフと呼ぶ。
   - 有向グラフ、無向グラフ、部分グラフ、木、、
@@ -217,7 +228,7 @@
 
 <hr>
 
-### 4. 時系列データ
+### <a name="ex4">4. 時系列データ</a>
 - 時系列データとは
   - ゆるい定義では「タイムスタンプのついた値」。
   - 硬い定義では「時間とともに変化するデータやイベントを継続的に観測した系列。通常は観測する時間間隔は一定れた値」。
@@ -248,6 +259,6 @@
 
 <hr>
 
-## 予習
+## <a name="preparation">予習</a>
 - 機械学習について概説している[An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)の冒頭「Machine learning: the problem setting」から「Learning and predicting」あたりまで読み、自分なりに疑問点等気になる事柄を整理せよ。
   - 授業開始時に確認します。
