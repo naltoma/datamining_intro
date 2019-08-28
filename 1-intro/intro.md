@@ -43,7 +43,7 @@
 <hr>
 
 ## <a name="target">授業で触れる範囲、触れない範囲</a>
-- 授業で振れる範囲
+- 授業で扱う範囲
   - 知識発掘時によくある問題。
     - 各種データ（数値・カテゴリ・文章）の取り扱い。
       - （余裕があれば：グラフ、時系列データなども）
@@ -261,4 +261,4 @@
 
 ## <a name="preparation">予習</a>
 - 機械学習について概説している[An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)の冒頭「Machine learning: the problem setting」から「Learning and predicting」あたりまで読み、自分なりに疑問点等気になる事柄を整理せよ。
-  - 授業開始時に確認します。
+  - 疑問等は、次回授業の前日までに、別途用意するフォームに入力すること。
