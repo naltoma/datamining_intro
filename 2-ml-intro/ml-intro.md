@@ -8,6 +8,7 @@
     - <a href="#ex2">演習2：教師あり学習における処理フローの確認</a>
   - <a href="#flow-and-datasets">教師あり学習における処理フローの例、公開データの例</a>
   - <a href="#report1">**課題レポート1：機械学習してみよう**</a>
+  - <a href="#preparation">予習代わり：課題取り組みを通した疑問等</a>
   - <a href="#model-and-learn">モデルと学習</a>
   - <a href="#complexity-and-overfitting">モデルの自由度（複雑度）と過学習</a>
   - <a href="#overfitting-monitoring">そもそも「過学習しているか否か」はどう判断したら良い？</a>
@@ -131,6 +132,11 @@
     - 例1: 混同行列（[confusion matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html#sphx-glr-auto-examples-model-selection-plot-confusion-matrix-py)）により、精度の良し悪しに偏りのあるクラスがあるかどうかを確認してみよう。
     - 例2: 失敗事例について要因分析してみよう。
     - 例3: 選択したモデルにハイパーパラメータ（手動調整するパラメータ）があるならば、それをチューニングして精度改善を試みてみよう。
+
+<hr>
+
+## <a name="preparation">予習代わり：課題取り組みを通した疑問等</a>
+- 前述の課題レポート1に取り組み、気になる事柄があれば次回授業の前日までに、別途用意するフォームに入力すること。
 
 <hr>
 
