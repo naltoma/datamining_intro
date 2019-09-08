@@ -14,6 +14,7 @@
   - <a href="#overfitting-monitoring">そもそも「過学習しているか否か」はどう判断したら良い？</a>
   - <a href="#prevent">過学習させない方法、もしくは和らげる工夫はないのだろうか？</a>
   - <a href="#review">復習</a>
+  - <a href="#preparation2">予習2：特徴量スケーリングの重要性</a>
 
 <hr>
 
@@ -227,3 +228,9 @@
 ## <a name="review">復習</a>
 - 以下の解説記事の前編を読み、自分なりに疑問点等気になる事柄を整理せよ。疑問等は、次回授業の前日までに、別途用意するフォームに入力すること。
   - 怪奇!! 次元の呪い - 識別問題、パターン認識、データマイニングの初心者のために： [前編](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=64233&item_no=1&page_id=13&block_id=8) | [後編](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=64252&item_no=1&page_id=13&block_id=8)
+
+<hr>
+
+## <a name="preparation2">予習2：特徴量スケーリングの重要性</a>
+- 特徴量のスケーリングについて概説している[Importance of Feature Scaling](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)を読み、自分なりに疑問点等気になる事柄を整理せよ。
+  - 疑問等は、次回授業の前日までに、別途用意するフォームに入力すること。
