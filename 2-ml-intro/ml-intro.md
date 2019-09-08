@@ -71,8 +71,7 @@
 
 ### <a name="ex2">演習2：教師あり学習における処理フローの確認</a>
 - 回帰タスクのコード例を動かして、教師あり学習における処理フローを眺めてみよう。
-- GitHub:
-  - regression_diabetes.ipynb
+- [regression_diabetes.ipynb](./regression_diabetes.ipynb)
   - requirements
     - Python: 3.7.1
     - scikit-learn: 0.20.1
