@@ -46,6 +46,7 @@
 - 外れ値があるとどういう問題がある？
   - 極端に大きな数値をそのまま扱うと、例えば、[線形回帰モデル](https://ja.wikipedia.org/wiki/線形回帰)で構築したモデルが外れ値に引きずられすぎてしまい、真のモデルからズレたモデルとなる可能性がある。
     - ここで「外れ値に引きずられる」とは、外れ値に対する誤差を縮めようとすることを指す。外れ値以外のサンプルに対しても同様に誤差が小さくなるように調整するが、サンプル数が少なかったり、それを上回る程の大きな数値の場合には外れ値の影響が強くなってしまう。
+    - e.g., Amazon CloudWatch Anomaly Detection: [Amazon CloudWatch、機械学習により異常値（アノマリー）を自動検出できる新機能](https://www.publickey1.jp/blog/19/amazon_cloudwatch.html) | [AWS News Blog](https://aws.amazon.com/jp/blogs/aws/new-amazon-cloudwatch-anomaly-detection/)
 - どう対応すると良いのか？
   - 外れ値をデータセットから除外する。
     - 目的達成のために不要であれば、除外するのが最もシンプル。ただし、外れ値判定に注意。どのようなケースでも適している「銀の弾丸」は存在しないため、タスクに応じて検討することになる。
