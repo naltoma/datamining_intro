@@ -1,4 +1,4 @@
-# 特徴量エンジニアリング：特徴ベクトル、数値データに対する前処理
+# 特徴量エンジニアリング：特徴ベクトル、カテゴリデータに対する前処理
 - 参考
   - [機械学習のための特徴量エンジニアリング――その原理とPythonによる実践](https://www.oreilly.co.jp/books/9784873118680/)
   - [5.3.4. Encoding categorical features](https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features)
