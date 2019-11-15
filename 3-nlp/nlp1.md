@@ -20,6 +20,8 @@
   - <a href="#ppmi">相互情報量による分散表現の高度化</a>
   - <a href="#dimensionality_reduction">次元削減</a>
   	- <a href="#svd">特異値分解による次元削減</a>
+  - <a href="#review">復習</a>
+  - <a href="#report3">**課題レポート3：自然言語処理してみよう**</a>
 
 <hr>
 
