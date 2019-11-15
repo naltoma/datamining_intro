@@ -335,7 +335,7 @@
       - 評価結果。ラベル毎の精度を示そう。[混同行列（confusion matrix）](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html#sphx-glr-auto-examples-model-selection-plot-confusion-matrix-py)も記載すること。
       - レポート上省略する場合でも、ソースコードは提出すること。
 - オプション例
-  - 相互特徴量から特徴ベクトルを生成してみよう。
+  - 相互情報量から特徴ベクトルを生成してみよう。
   - 共起行列に基づいた特徴ベクトル、もしくは相互特徴量に基づいた特徴ベクトルをSVDにより次元削減してみよう。
   - SVDによる次元削減時に2次元とせよ。気になる単語1つを選び、上位10件と下位10件を2次元空間にマッピングせよ。マッピング結果、どのように散らばっているか観察し、想定とどのぐらい似通っているか考察してみよう。
   - 日本語文書について自然言語処理してみよう。
