@@ -85,8 +85,11 @@
   - subwordという考え方
     - [Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)
     - [Subword Neural Machine Translation](https://github.com/rsennrich/subword-nmt)
-- [BERT](https://github.com/google-research/bert)
-  - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+  - subwordの弊害
+    - [fastTextのsubword(部分語)の弊害](http://studylog.hateblo.jp/entry/2016/09/20/103724)
+- [Github: BERT](https://github.com/google-research/bert)
+  - [Google AI Blog: Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processing](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
+  - [paper: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
     - ![Table 2](./figs/bert_table2.png)
     - 上記 Table 2より引用。
   - 汎用的なタスク（general-purpose "language understanding" model）を想定した分散表現学習器。学習済みモデルも公開。
