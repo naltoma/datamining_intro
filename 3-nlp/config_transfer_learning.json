@@ -1,0 +1,7 @@
+{
+  "wikipedia_data": "/Users/tnal/Downloads/data/wikipedia-en/swwiki-latest-pages-articles.xml.bz2",
+  "model_path": "/Users/tnal/PycharmProjects/dm_nlp/transfer_learning/gensim",
+  "model_base_filename": "swwiki",
+  "train_file": "20news_train.pkl",
+  "test_file": "20news_test.pkl"
+}
