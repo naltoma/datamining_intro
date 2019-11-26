@@ -9,3 +9,5 @@
   - [テキストデータに対する特徴量設計2（word2vecによる分散表現）](./3-nlp/nlp2.md)
   - [転移学習外観](./3-nlp/nlp3.md)
 - タスク＆アルゴリズム例
+  - グラフマイニング：[資料](./4-casestudy/graph/graph.md), [コード例](./4-casestudy/graph/graph.ipynb)
+  
