@@ -7,6 +7,7 @@
 - ＜目次＞
   - <a href="#intro">背景と定義</a>
   - <a href="#application">実応用例</a>
+  - <a href="#discussion">討論</a>
 
 <hr>
 
@@ -63,3 +64,15 @@
   - 別例2：[BERT Tutorial on Colaboratory](https://colab.research.google.com/drive/1ywsvwO6thOVOrfagjjfuxEf6xVRxbUNO)
     - Colaboratory想定のため、環境構築はとっても楽。
     - ちなみに、BERTの事前学習自体に要する計算リソースはと〜〜〜〜〜っても高いです。公式曰く "Pre-training is fairly expensive (four days on 4 to 16 Cloud TPUs)"。
+
+<hr>
+
+## <a name="discussion">討論</a>
+- Q1：BERTの事前学習では、大規模なデータセットで2種類の異なるタスクを同一モデルでこなすように学習することで、より汎用性の高い言語モデルの獲得を目指している。ここでいう「汎用性の高い」状態とは、どのような状態だろうか？
+- Q2：より大規模なデータセットと、より多数の異なるタスクを用意できれば、それで何も問題なく「良く」なるのだろうか？
+  - 関連
+    - https://twitter.com/kahajime/status/1199685614695661569
+      - "AIの「分析」が「差別」を固定化する危険性については、アメリカではかなり議論されています。"
+      - "たとえば、イギリスの警察では、再犯を犯す可能性の程度を予測するアルゴリズムが使用されていますが、[貧困地域に居住する者がより不利に判断されるという結果が生じている](https://www.wired.co.uk/article/police-ai-uk-durham-hart-checkpoint-algorithm-edit)、と問題となりました。"
+    - [アップルのクレジットカードが「性差別」か　米当局が調査](https://www.bbc.com/japanese/50370810)
+      - "「与信枠決定は顧客の信用度に基づいており、ジェンダーや人種、年齢、性的指向も、違法とされる基準も使っていない」"
