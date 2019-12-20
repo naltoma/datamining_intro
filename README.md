@@ -10,4 +10,9 @@
   - [転移学習外観](./3-nlp/nlp3.md)
 - タスク＆アルゴリズム例
   - グラフマイニング：[資料](./4-casestudy/graph/graph.md), [コード例](./4-casestudy/graph/graph.ipynb)
-  
+  - 頻出パターンマイニング：[資料](./4-casestudy/frequentpattern/freqpatpattern.md)
+
+<hr>
+
+# お試し
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/naltoma/datamining_intro/master)
