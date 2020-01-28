@@ -76,3 +76,4 @@
 
 ## <a name="example">例題</a>
 - [AirPassengersの時系列分析](./ex-AR.ipynb)
+  - ![AirPassengersの成分分解結果](../figs/AirPassengers-decompose.png)
